@@ -35,7 +35,7 @@ export const Portfolio = () => {
       <footer className="bg-surface border-t border-card-border py-8">
         <div className="container mx-auto px-6 text-center">
           <p className="text-text-muted text-sm">
-            © 2024 Alex Johnson. Built with React, TypeScript, and Tailwind CSS.
+            © 2024 Gaurav Shukla. Built with React, TypeScript, and Tailwind CSS.
           </p>
         </div>
       </footer>

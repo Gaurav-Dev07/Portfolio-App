@@ -60,14 +60,14 @@ export const ContactSection = () => {
             </Text>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div >
             {/* Contact Info */}
             <div className="space-y-8">
               <div>
                 <Text variant="h3" className="mb-6 text-primary">
                   Let's Connect
                 </Text>
-                <div className="space-y-4">
+                <div className="space-y-4" >
                   {contactInfo.map((info) => (
                     <a
                       key={info.label}
@@ -112,7 +112,7 @@ export const ContactSection = () => {
             </div>
 
             {/* Contact Form */}
-            <GradientCard>
+            {/* <GradientCard>
               <Text variant="h3" className="mb-6 text-primary">
                 Send a Message
               </Text>
@@ -163,7 +163,7 @@ export const ContactSection = () => {
                   Send Message
                 </GlowButton>
               </form>
-            </GradientCard>
+            </GradientCard> */}
           </div>
 
           {/* CTA Section */}
@@ -172,9 +172,9 @@ export const ContactSection = () => {
               Ready to Start a Project?
             </Text>
             <Text variant="body" className="mb-6 text-text-muted">
-              I'm available for freelance work and full-time opportunities.
+              I'm available for full-time opportunities.
             </Text>
-            <GlowButton variant="primary" size="lg" href="mailto:alex.johnson@email.com">
+            <GlowButton variant="primary" size="lg" href="mailto:shuklagaurav781@gmail.com">
               Let's Work Together
             </GlowButton>
           </div>
